@@ -1,9 +1,10 @@
 {
-  "name": "advanced-to-do-list",
+  "name": "redminote14-advanced-to-do-list",
   "version": "1.0.0",
   "description": "This project contains advanced options and make to-do list in which we make before shopping or before some work we list all requirements which are used in any plan.",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
