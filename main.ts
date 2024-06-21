@@ -5,8 +5,8 @@ import inquirer from "inquirer";
 let todos = []; //consider as a shopper.
 let condition = true                                          ; 
 
-while (condition) {
-  let todoQuestions = await inquirer.prompt([
+ while (condition) {
+   let todoQuestions = await inquirer.prompt([
     {
       name: "firstQuestion",
       message: "What would you like to add in your todos?",
@@ -20,12 +20,12 @@ while (condition) {
     },
   ]);
 
-  todos.push(todoQuestions.firstQuestion);
-  console.log(todos);
+   todos.push(todoQuestions.firstQuestion);
+   console.log(todos);
   //the loop is running on the basis of this variable condition.
-  condition = todoQuestions.secondQuestion;
-}
+   condition = todoQuestions.secondQuestion;
+ }
 
 
-//read,update,delete.
+//read,update,delete,add
 //jo empty hai usko kese hathana hai. 

@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 let todos = []; //consider as a shopper.
-let condition = 2;
+let condition = true;
 while (condition) {
     let todoQuestions = await inquirer.prompt([
         {
